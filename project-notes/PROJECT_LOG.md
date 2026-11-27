@@ -51,16 +51,16 @@
 
 | Feature we faked or skipped | Why a real company would need it | How hard / expensive? |
 |---|---|---|
-| Student verification | Restrict campus accounts and improve trust | Medium difficulty, low to moderate cost at launch. An existing login service (SaaS) saves development time, but student email verification still needs to be set up. Costs could increase as more students join. |
-| Shared database | Make listings available to all users rather than one browser | Medium difficulty, low to moderate ongoing cost at first. A managed database (PaaS) avoids running our own servers, but someone needs to connect it to the website and manage access. Storage and usage costs grow with activity. |
-| Payment processing | Collect optional promoted listing fees | Medium difficulty, relatively low setup cost if an existing payment processor is used. There would be fees on each payment, and refunds and disputes would need to be handled. |
-| Messaging | Let buyers and sellers coordinate collection | Medium to high difficulty and moderate cost. Private messaging needs a backend, message storage and notifications. Moderation and spam prevention add ongoing costs. |
-| Security and privacy | Protect account information and messages | High difficulty and potentially expensive. Secure accounts, access controls, regular updates and monitoring require ongoing technical work, particularly as the platform grows. |
-| Listing moderation | Remove scams and misleading listings | Medium to high difficulty and potentially expensive as usage increases. Reporting tools can help, but people may still need to review complaints and remove fake listings. |
-| Customer support | Resolve complaints and technical problems | Medium difficulty, low cost initially if the founders handle support. As the platform grows, support software and paid staff could become a significant expense. |
-| Backups | Recover information after failures | Low to medium difficulty and relatively low ongoing cost for a small platform using managed backups. Recovery testing takes time, and storage costs increase as more data is collected. |
+| Student verification | Make sure the people using the website are actually students. | Medium difficulty and fairly cheap at first. We could use an existing login service but would still need to set up student email verification. |
+| Shared database | Make sure everyone can see the same listings. | Medium difficulty and not too expensive at first. We would need to pay for a place to store the information and connect it to the website. |
+| Payment system | Allow sellers to pay to promote their listings. | Medium difficulty. It would not cost much to set up using an existing payment service, but there would be a fee every time someone pays. |
+| Messaging | Allow buyers and sellers to arrange a pickup. | Medium to high difficulty and somewhat expensive. We would need to build a messaging system, store messages and prevent spam. |
+| Security and privacy | Keep students' personal information safe. | High difficulty and potentially expensive because we would need someone to regularly check and update the security of the website. |
+| Listing moderation | Remove fake listings and scams. | Medium to high difficulty. It could get expensive if we had to hire people to review listings and complaints. |
+| Customer support | Help students when they have problems with the website. | Medium difficulty. It would be cheap if we handled it ourselves at first, but hiring staff would cost more as the business grows. |
+| Backups | Make sure information is not permanently lost. | Low to medium difficulty and fairly cheap for a small business. It would cost more as we have more information to store. |
 
-Cost and difficulty ratings are rough estimates for an early-stage campus marketplace, not supplier quotes. Costs depend on usage, staffing and the providers selected.
+These are rough estimates. The actual costs would depend on how big the business gets.
 
 ## Reflection
 
