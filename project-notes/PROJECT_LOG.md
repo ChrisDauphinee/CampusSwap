@@ -51,14 +51,16 @@
 
 | Feature we faked or skipped | Why a real company would need it | How hard / expensive? |
 |---|---|---|
-| Student verification | Restrict campus accounts and improve trust | Medium: authentication SaaS and verification |
-| Shared database | Make listings available to all users rather than one browser | Medium: managed database PaaS and development |
-| Payment processing | Collect optional promoted listing fees | Medium: payment service and transaction fees |
-| Messaging | Let buyers and sellers coordinate collection | Medium: backend development and moderation |
-| Security and privacy | Protect account information and messages | High: access controls and ongoing monitoring |
-| Listing moderation | Remove scams and misleading listings | Medium to high: reporting tools and staff |
-| Customer support | Resolve complaints and technical problems | Medium: support SaaS and staff |
-| Backups | Recover information after failures | Low to medium: managed backups and recovery testing |
+| Student verification | Restrict campus accounts and improve trust | Medium difficulty, low to moderate cost at launch. An existing login service (SaaS) saves development time, but student email verification still needs to be set up. Costs could increase as more students join. |
+| Shared database | Make listings available to all users rather than one browser | Medium difficulty, low to moderate ongoing cost at first. A managed database (PaaS) avoids running our own servers, but someone needs to connect it to the website and manage access. Storage and usage costs grow with activity. |
+| Payment processing | Collect optional promoted listing fees | Medium difficulty, relatively low setup cost if an existing payment processor is used. There would be fees on each payment, and refunds and disputes would need to be handled. |
+| Messaging | Let buyers and sellers coordinate collection | Medium to high difficulty and moderate cost. Private messaging needs a backend, message storage and notifications. Moderation and spam prevention add ongoing costs. |
+| Security and privacy | Protect account information and messages | High difficulty and potentially expensive. Secure accounts, access controls, regular updates and monitoring require ongoing technical work, particularly as the platform grows. |
+| Listing moderation | Remove scams and misleading listings | Medium to high difficulty and potentially expensive as usage increases. Reporting tools can help, but people may still need to review complaints and remove fake listings. |
+| Customer support | Resolve complaints and technical problems | Medium difficulty, low cost initially if the founders handle support. As the platform grows, support software and paid staff could become a significant expense. |
+| Backups | Recover information after failures | Low to medium difficulty and relatively low ongoing cost for a small platform using managed backups. Recovery testing takes time, and storage costs increase as more data is collected. |
+
+Cost and difficulty ratings are rough estimates for an early-stage campus marketplace, not supplier quotes. Costs depend on usage, staffing and the providers selected.
 
 ## Reflection
 
