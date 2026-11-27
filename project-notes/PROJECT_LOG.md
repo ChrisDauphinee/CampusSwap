@@ -2,7 +2,7 @@
 
 **Team name:** Chris  
 **Startup name:** CampusSwap  
-**Live site link:** Pending GitHub Pages activation
+**Live site link:** https://chrisdauphinee.github.io/CampusSwap/ (deployment configured; live access not independently verified)
 
 ## Work sessions
 
@@ -25,10 +25,18 @@
 ### Session — Nov 27, 2026 — driver: Chris, with ChatGPT assistance
 
 - **Goal:** Create a copy of the instructor's template and upload CampusSwap.
-- **Key prompts:** “is there anyway u can do the git hub part for me”; “just do it make something up”.
-- **What worked:** Connected GitHub to ChatGPT, located the official template, created CampusSwap and committed the AI-generated website. Improved narrow-screen grid sizing and whitespace validation during code review.
+- **Key prompts:** “is there anyway u can do the git hub part for me”; “alright i did it”.
+- **What worked:** Connected GitHub to ChatGPT, located the official template, created CampusSwap and committed the AI-generated website. The uploaded code includes responsive grid sizing and whitespace validation.
 - **What broke, and how we fixed it:** The GitHub connection initially returned no accessible repositories. Creating the repository from the official template resolved that blocker.
 - **Committed?** Yes — Add AI-assisted CampusSwap marketplace prototype (b9d5c5d).
+
+### Follow-up — Nov 27, 2026 — publication and review
+
+- **Goal:** Publish the prototype and check its code.
+- **Key prompt:** “can u test it and do whatever”.
+- **What worked:** Chris saved GitHub Pages settings (main branch, root folder). ChatGPT fetched the committed HTML and checked element references, duplicate IDs, external scripts, mobile viewport and the required prototype footer. These static checks passed.
+- **What broke, and how we fixed it:** The live URL could not be opened by ChatGPT's web tool. Browser interaction and deployment status still need verification; no successful live test is claimed.
+- **Committed?** Yes — Record Pages configuration and static code checks.
 
 ## Things that broke (running list)
 
@@ -37,6 +45,8 @@
 | Nov 24 | GitHub sign-in failed | Continued working offline and attempted sign-in | Account setup later succeeded; exact fix not recorded |
 | Nov 25–27 | Starter template link not located on assignment page | Checked Moodle and contacted instructor | Instructor supplied the official link |
 | Nov 27 | Connected GitHub account initially had no accessible repositories | Located instructor's template and created a copy | CampusSwap repository became accessible |
+
+| Nov 27 | Live URL not accessible from ChatGPT's web tool | Attempted to open URL; inspected committed source instead | Pending live browser verification |
 
 ## What a real version would need
 
