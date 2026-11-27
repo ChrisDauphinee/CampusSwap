@@ -35,7 +35,7 @@
 - **Goal:** Publish the website and review the code.
 - **Key AI prompt (summarized):** Check the website for problems.
 - **What worked:** I enabled GitHub Pages using the main branch and root folder. An AI-assisted source review found no missing element references or duplicate IDs and confirmed the mobile viewport and prototype footer were included.
-- **What broke, and how we fixed it:** Live browser testing was not available during the review. The source code was checked instead; live testing is still pending.
+- **What broke, and how we fixed it:** Initially, live browser testing was unavailable during the source review. After GitHub Pages finished publishing, I opened the live website and tested the search, category filters, saved items, product details, demo purchase request, new listings, network effects sliders, mobile layout and student prototype footer. All checklist tests worked.
 - **Committed?** Yes — Record Pages configuration and static code checks.
 
 ## Things that broke (running list)
@@ -45,7 +45,7 @@
 | Nov 24 | Trouble signing into GitHub | Continued working offline and tried signing in | Account setup eventually succeeded |
 | Nov 25–27 | Couldn't locate the starter template | Checked Moodle and contacted the professor | Professor provided the link |
 | Nov 27 | Repository was not accessible through the GitHub integration | Created my repository using the template | Repository became accessible |
-| Nov 27 | Live browser testing unavailable during review | Checked the committed source code | Live testing still pending |
+| Nov 27 | Live browser testing unavailable during review | Checked the committed source code | Opened the published website and completed the testing checklist |
 
 ## What a real version would need
 
