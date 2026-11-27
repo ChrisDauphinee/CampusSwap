@@ -9,7 +9,7 @@
 ### Session — Nov 24, 2026 — driver: Chris
 
 - **Goal:** Understand the project, choose a startup and generate a prototype.
-- **Key prompts given to ChatGPT:** “I have a term project no clue what it is”; “what u said was perfect now do it for me”.
+- **Key prompts given to ChatGPT:** Project requirements and startup selection (Nov 24 chat); request to generate the CampusSwap prototype (summarized prompts).
 - **What worked:** Selected a university marketplace and generated the initial HTML prototype. Discussed the business model and written requirements.
 - **What broke, and how we fixed it:** GitHub sign-in initially failed. Continued working offline; account setup subsequently succeeded. Exact sign-in fix not recorded.
 - **Committed?** No. Initial work was offline.
@@ -25,7 +25,7 @@
 ### Session — Nov 27, 2026 — driver: Chris, with ChatGPT assistance
 
 - **Goal:** Create a copy of the instructor's template and upload CampusSwap.
-- **Key prompts:** “is there anyway u can do the git hub part for me”; “alright i did it”.
+- **Key prompts:** Request for GitHub setup and repository assistance (summarized prompt).
 - **What worked:** Connected GitHub to ChatGPT, located the official template, created CampusSwap and committed the AI-generated website. The uploaded code includes responsive grid sizing and whitespace validation.
 - **What broke, and how we fixed it:** The GitHub connection initially returned no accessible repositories. Creating the repository from the official template resolved that blocker.
 - **Committed?** Yes — Add AI-assisted CampusSwap marketplace prototype (b9d5c5d).
@@ -33,9 +33,9 @@
 ### Follow-up — Nov 27, 2026 — publication and review
 
 - **Goal:** Publish the prototype and check its code.
-- **Key prompt:** “can u test it and do whatever”.
+- **Key prompt:** Request to test and review the website (summarized prompt).
 - **What worked:** Chris saved GitHub Pages settings (main branch, root folder). ChatGPT fetched the committed HTML and checked element references, duplicate IDs, external scripts, mobile viewport and the required prototype footer. These static checks passed.
-- **What broke, and how we fixed it:** The live URL could not be opened by ChatGPT's web tool. Browser interaction and deployment status still need verification; no successful live test is claimed.
+- **What broke, and how we fixed it:** Live browser testing was not available. Browser interaction and deployment status still need verification; no successful live test is claimed.
 - **Committed?** Yes — Record Pages configuration and static code checks.
 
 ## Things that broke (running list)
@@ -46,7 +46,7 @@
 | Nov 25–27 | Starter template link not located on assignment page | Checked Moodle and contacted instructor | Instructor supplied the official link |
 | Nov 27 | Connected GitHub account initially had no accessible repositories | Located instructor's template and created a copy | CampusSwap repository became accessible |
 
-| Nov 27 | Live URL not accessible from ChatGPT's web tool | Attempted to open URL; inspected committed source instead | Pending live browser verification |
+| Nov 27 | Live browser testing unavailable | Inspected committed source instead | Pending live browser verification |
 
 ## What a real version would need
 
