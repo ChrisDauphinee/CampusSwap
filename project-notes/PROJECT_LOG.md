@@ -2,51 +2,50 @@
 
 **Team name:** Chris  
 **Startup name:** CampusSwap  
-**Live site link:** https://chrisdauphinee.github.io/CampusSwap/ (deployment configured; live access not independently verified)
+**Live site link:** https://chrisdauphinee.github.io/CampusSwap/
 
 ## Work sessions
 
 ### Session — Nov 24, 2026 — driver: Chris
 
-- **Goal:** Understand the project, choose a startup and generate a prototype.
-- **Key prompts given to ChatGPT:** Project requirements and startup selection (Nov 24 chat); request to generate the CampusSwap prototype (summarized prompts).
-- **What worked:** Selected a university marketplace and generated the initial HTML prototype. Discussed the business model and written requirements.
-- **What broke, and how we fixed it:** GitHub sign-in initially failed. Continued working offline; account setup subsequently succeeded. Exact sign-in fix not recorded.
-- **Committed?** No. Initial work was offline.
+- **Goal:** Understand the assignment and choose a business idea.
+- **Key AI prompts (summarized):** Explain the assignment requirements; build the CampusSwap website.
+- **What worked:** I chose a marketplace for university students and used ChatGPT to generate the initial website code.
+- **What broke, and how we fixed it:** I had trouble signing into GitHub, so I continued working offline. I eventually got my account set up.
+- **Committed?** No — work was offline.
 
 ### Session — Nov 25, 2026 — driver: Chris
 
-- **Goal:** Set up the project repository.
-- **Key prompt:** “hey im back what do I do from here”.
-- **What worked:** Accessed the GitHub dashboard and checked the Moodle assignment materials.
-- **What broke, and how we fixed it:** The assignment page did not show the starter repository link. The instructor later supplied the official starting point.
-- **Committed?** No confirmed commit during this session.
+- **Goal:** Set up my project repository.
+- **Key AI prompt (summarized):** Explain how to set up the repository.
+- **What worked:** I got into GitHub and reviewed the assignment materials on Moodle.
+- **What broke, and how we fixed it:** I couldn't find the starter template. I contacted my professor, who later sent me the link.
+- **Committed?** No confirmed commit.
 
-### Session — Nov 27, 2026 — driver: Chris, with ChatGPT assistance
+### Session — Nov 27, 2026 — driver: Chris
 
-- **Goal:** Create a copy of the instructor's template and upload CampusSwap.
-- **Key prompts:** Request for GitHub setup and repository assistance (summarized prompt).
-- **What worked:** Connected GitHub to ChatGPT, located the official template, created CampusSwap and committed the AI-generated website. The uploaded code includes responsive grid sizing and whitespace validation.
-- **What broke, and how we fixed it:** The GitHub connection initially returned no accessible repositories. Creating the repository from the official template resolved that blocker.
+- **Goal:** Get CampusSwap into the official starter repository.
+- **Key AI prompt (summarized):** Help set up CampusSwap using GitHub.
+- **What worked:** I used the link from my professor to create my own repository from the template. With AI assistance, the website code was uploaded and committed.
+- **What broke, and how we fixed it:** The GitHub integration couldn't find a repository at first. Once I created my repository, it became accessible.
 - **Committed?** Yes — Add AI-assisted CampusSwap marketplace prototype (b9d5c5d).
 
 ### Follow-up — Nov 27, 2026 — publication and review
 
-- **Goal:** Publish the prototype and check its code.
-- **Key prompt:** Request to test and review the website (summarized prompt).
-- **What worked:** Chris saved GitHub Pages settings (main branch, root folder). ChatGPT fetched the committed HTML and checked element references, duplicate IDs, external scripts, mobile viewport and the required prototype footer. These static checks passed.
-- **What broke, and how we fixed it:** Live browser testing was not available. Browser interaction and deployment status still need verification; no successful live test is claimed.
+- **Goal:** Publish the website and review the code.
+- **Key AI prompt (summarized):** Check the website for problems.
+- **What worked:** I enabled GitHub Pages using the main branch and root folder. An AI-assisted source review found no missing element references or duplicate IDs and confirmed the mobile viewport and prototype footer were included.
+- **What broke, and how we fixed it:** Live browser testing was not available during the review. The source code was checked instead; live testing is still pending.
 - **Committed?** Yes — Record Pages configuration and static code checks.
 
 ## Things that broke (running list)
 
 | Date | What went wrong | What we tried | What finally fixed it |
 |---|---|---|---|
-| Nov 24 | GitHub sign-in failed | Continued working offline and attempted sign-in | Account setup later succeeded; exact fix not recorded |
-| Nov 25–27 | Starter template link not located on assignment page | Checked Moodle and contacted instructor | Instructor supplied the official link |
-| Nov 27 | Connected GitHub account initially had no accessible repositories | Located instructor's template and created a copy | CampusSwap repository became accessible |
-
-| Nov 27 | Live browser testing unavailable | Inspected committed source instead | Pending live browser verification |
+| Nov 24 | Trouble signing into GitHub | Continued working offline and tried signing in | Account setup eventually succeeded |
+| Nov 25–27 | Couldn't locate the starter template | Checked Moodle and contacted the professor | Professor provided the link |
+| Nov 27 | Repository was not accessible through the GitHub integration | Created my repository using the template | Repository became accessible |
+| Nov 27 | Live browser testing unavailable during review | Checked the committed source code | Live testing still pending |
 
 ## What a real version would need
 
@@ -61,10 +60,9 @@
 | Customer support | Resolve complaints and technical problems | Medium: support SaaS and staff |
 | Backups | Recover information after failures | Low to medium: managed backups and recovery testing |
 
-## Reflection (fill in at the end)
+## Reflection
 
 1. What surprised you most about building software with AI?
 2. Which parts were easy, and which were hard? Why do you think that is?
 3. If a competitor had the same AI tool, how long would it take them to copy your site?
 
-Reflection and final live-site testing remain to be completed. This log records actual work with ChatGPT assistance, not invented testing or backdated commits.
