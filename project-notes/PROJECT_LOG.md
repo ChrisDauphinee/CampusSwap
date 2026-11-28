@@ -65,6 +65,13 @@ These are rough estimates. The actual costs would depend on how big the business
 ## Reflection
 
 1. What surprised you most about building software with AI?
+   
+ What surprised me the most was how quickly AI could create a working website without me having much knowledge about coding. Before starting the project, I thought creating a website would a lot more complicated. I was surprised that CampusSwap could have features like searching for products, creating listings, saving items and demonstrating network effects. It also showed me that having an idea and turning it into a prototype is a lot easier than it used to be. However, I learned that just because AI can create a website does not mean it can create a successful business. There are still many other things that need to be considered, such as attracting customers, building trust and making money.
+ 
 2. Which parts were easy, and which were hard? Why do you think that is?
+
+The easiest part of the project was coming up with the business idea and using AI to create the website. Being a university student, I understood why a marketplace specifically for students could be useful. The hardest part was setting up GitHub and getting the website published. I had trouble signing into my account at first and also had trouble finding the starter template. Once my professor sent me the link, the process became easier. I think this was difficult because I had never really used GitHub before and was unfamiliar with how everything worked. Once the website was published, I tested the different features and everything on my testing checklist worked.
+
 3. If a competitor had the same AI tool, how long would it take them to copy your site?
 
+I think a competitor could probably copy my website within a day or two if they access to the same AI tools. This project showed me how easy it is to create software, which is why the website itself would not be a strong competitive advantage. The harder part would be copying the actual business. If campusSwap already had a large number of active students, strong relationships with universities and a good rep, it would take a competitor much longer to develop those exact same advantages. This connects to what we learned about network effects. I think building a successful community would be more important than having a website that looks better than the competition.
